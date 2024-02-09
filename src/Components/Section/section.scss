@@ -1,0 +1,36 @@
+section{
+    width: 100%;
+    .sector{
+        h1{
+            margin-left: 220px;
+            font-size: 32px;
+            font-weight: 700;
+            color: #494947;
+        }
+        
+        .all{
+            display: grid;
+            padding: 20px 200px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+            .card{
+                width: 585px;
+                height: 224px;
+                border-radius: 25px;
+                background: url('../../img/card.png') no-repeat center center/cover;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 50px;
+                img{
+                    width: 50%;
+                }
+                b{
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: #494947;
+                }
+            }
+        }
+    }
+}

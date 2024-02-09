@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.case{
+    width: 95%;
+    max-width: 1680px;
+    margin: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
